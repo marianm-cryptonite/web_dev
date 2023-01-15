@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3399ff;
+}
+.about{
+    background: url(aiya.png) no-repeat left;
+    background-size: 50%;
+    background-color: #99ccff;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.inner-section{
+    width: 55%;
+    float: right;
+    background-image: url("qwe.jpg");
+    padding: 140px;
+    box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: black;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.skills button{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #00999c;
+    color: white;
+    cursor: pointer;
+}
+.skills button:hover{
+    transition: 1s;
+    background-color: #ecf5f5;
+    color: #00999c;
+}
+@media screen and (max-width:1200px){
+    .inner-section{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about{
+        padding: 0;
+    }
+    .inner-section{
+        padding: 60px;
+    }
+    .skills button{
+        font-size: 19px;
+        padding: 5px;
+        width: 160px;
+    }
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+	
+</head>
+<body>
+    <div class="about">
+        <div class="inner-section">
+            <h1>About Us</h1>
+            <p class="text">
+               Mars Finance Solution, is the largest and most reputable non-bank financial institution that provides immediate monetary needs. We specialize in sending and receiving money that make us the premier remittance center in the Philippines. Through our vast network of over 100 trusted remittance partners worldwide, we are able to reach far-flung areas in the country and at the same time cover international locations in a fast and easy manner. With our loyal customers on top of mind, we also provide top-notch customer service like no other as we continue to be innovative thinkers that are ahead of the game.
+            </p>
+            <div class="skills">
+                <button ><a href="Contact_Us.php"> Contact Us </button>
+				<button ><a href="testimonial page.php"> Testimonials </button>
+				
+            </div>
+        </div>
+    </div>
+</body>
+</html>

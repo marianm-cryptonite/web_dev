@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Loan Plans</title>
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 5px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+ background-image: url("bg_card.png");
+ background-repeat: repeat-x;
+}
+
+.main{
+
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.4)40%,rgba(0,0,0,0.4)40%), url(bg_card.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card{
+background-color: lightblue;
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 97%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 25px;
+    text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+ }
+ 
+ h2 {
+   font-size: 40px;
+    text-align: center;
+  padding: 10px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: CornflowerBlue;
+  color: black;
+  transition: .5s;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: LightBlue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+font-family: arial;
+  display: flex;
+  color:black;
+  text-align: center;
+width: 97%;
+  text-decoration: underline;
+}
+
+li a:hover {
+  background-color: LightCyan;
+}
+
+
+</style>
+<body>
+
+
+<h2> Choose the Right Plan for you </h2> 
+
+<div class="main">
+
+ <!--cards -->
+
+<div class="card">
+
+<div class="image">
+ <img src="card_bg.png">
+</div>
+<div class="title">
+ <h1>
+300,000 </h1>
+</div>
+<div class="des">
+  <p>10.58% interes/month</p>
+ <p> 3 days approval time </p>
+ <p> 12 months term </p> 
+<button onclick="document.location='Lenders.html'">Apply for plan</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+ <img src="card_bg.png">
+</div>
+<div class="title">
+ <h1>
+150,000 </h1>
+</div>
+<div class="des">
+ <p>8.69% interes/month</p>
+ <p> 2 days approval time </p>
+ <p> 10 months term </p> 
+<button onclick="document.location='Lenders.html'">Apply for plan</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+ <img src="card_bg.png">
+</div>
+<div class="title">
+ <h1>
+80,000 </h1>
+</div>
+<div class="des">
+ <p>4.86% interes/month</p>
+ <p> 1 days approval time </p>
+ <p> 8 months term </p> 
+<button onclick="document.location='Lenders.html'">Apply for plan</button>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+ <img src="card_bg.png">
+
+</div>
+<div class="title">
+ <h1>
+50,000 </h1>
+</div>
+<div class="des">
+ <p>3.99% interes/month</p>
+ <p> 3 days approval time </p>
+ <p> 6 months term </p> 
+<button onclick="document.location='Lenders.html'">Apply for plan</button>
+</div>
+</div>
+<!--cards -->
+
+<ul>
+  <li><a href= "index.html">Home</a></li>
+  <li><a href="Sign In.html">Sign In</a></li>
+  <li><a href="Contact_Us.html">Contact</a></li>
+  <li><a href="about us.html">About</a></li>
+  <li><a href="page ledger.html">Client Ledgers</a></li>
+</ul>
+
+
+
+</div>
+</body>
+</html>
